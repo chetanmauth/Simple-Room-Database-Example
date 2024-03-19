@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Room Database"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:hint="Title"
+        android:id="@+id/etTitle"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:hint="Amount"
+        android:id="@+id/etAmount"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnAddItem"
+        android:layout_height="wrap_content"
+        android:text="Add Item"/>
+
+</LinearLayout>
